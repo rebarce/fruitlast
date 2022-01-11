@@ -318,6 +318,7 @@ section {
     background-color: var(--bg-light);
     margin-top: 2rem;
     padding: 1rem 2rem;
+    border-radius: 10px;
   }
 
   .product img {
