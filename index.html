@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="bg-light">
+        <div id="brand"><a href="/">FruitRevolution</a></div>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <ul class="mobile-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <section>
+        <div class="hero">
+          <div class="hero-text">
+            <h1>Serbian Apple</h1>
+            <p>healthy and refreshing. always.</p>
+            <button type="button">More</button>
+          </div>
+
+          <div class="hero-image">
+            <img src="images/hero-bg.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="bg-light">
+        <div class="about">
+          <h2>About us</h2>
+          <p>
+            Fruit Revolution je jedan od najvećih i najnaprednijih dobavljača
+            visokokvalitetnog voca u Srbiji. Naš cilj je proizvodnja i ponuda
+            naših jabuka i drugog voca u skladu sa standardima i zahtevima
+            domaceg i inostranih tržišta.
+          </p>
+
+          <div class="stats">
+            <h2>FruitRevolution u brojkama</h2>
+            <p>Sa svojim kooperantima raspolazemo sledecim kapacitetima:</p>
+            <div class="items bg-white">
+              <div class="item">
+                <img src="icons/warehouse.png" alt="" />
+                <p>2000t</p>
+                <p>skladisnih kapaciteta</p>
+              </div>
+              <div class="item">
+                <img src="icons/pencil-and-ruler.png" alt="" />
+                <p>1100+</p>
+                <p>hektara zasada</p>
+              </div>
+              <div class="item">
+                <img src="icons/hand-shake.png" alt="" />
+                <p>200+</p>
+                <p>kooperanata</p>
+              </div>
+            </div>
+          </div>
+
+          <p>
+            Promovisemo proizvodjace voca i njihove proizvode, delimo novine o
+            industriji voca i gradimo veze sa medjunarodnim kupcima.
+          </p>
+          <p>
+            Na osnovu dugorocnih ugovora i vec uspesne saradnje sa vodecim
+            proizvodjacima voca iz razlicitih regija u Srbiji, nasim kupcima
+            obezbedjujemo kvalitet, kvantitet i kontinuitet isporuka,
+            obezbedjujuci najbolji odnos cena-kvalitet.
+          </p>
+        </div>
+      </section>
+
+      <!-- Products -->
+      <section>
+        <h2>Products</h2>
+        <div class="products bg-white">
+          <div class="product">
+            <div class="product-img">
+              <img src="./images/red-delicious.jpg" alt="" />
+            </div>
+            <h3>Red Declicios</h3>
+            <div class="taste">
+              <h4>Taste</h4>
+              <p>
+                Red Delicious is crunchy, juicy, sweet apple with a typical
+                aroma for its variety.
+              </p>
+            </div>
+            <div class="fruit">
+              <h4>Fruit</h4>
+              <p>
+                The fruit is medium to large in size, elongated and has five
+                distinct rib crowns in the core cavity. The color is bright to
+                dark-red, but some clones can have varieties in color.
+              </p>
+            </div>
+            <div>
+              <h4>Availability</h4>
+              <ul class="availability">
+                <li>May</li>
+                <li>June</li>
+                <li>Juy</li>
+                <li>August</li>
+                <li>September</li>
+                <li>October</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="product">
+            <div class="product-img">
+              <img src="./images/golden-delicious.jpg" alt="" />
+            </div>
+            <h3>Golden Declicios</h3>
+            <div class="taste">
+              <h4>Taste</h4>
+              <p>
+                Golden Delicious apples are sweet, juicy and crispy with a very
+                agreeable aroma and fine fruit acid.
+              </p>
+            </div>
+            <div class="fruit">
+              <h4>Fruit</h4>
+              <p>
+                The apples are medium to large in size, elongated, symmetrical
+                and of uniform shape. The color of this variety ranges from
+                greenish yellow to golden yellow.
+              </p>
+            </div>
+            <div class="availability">
+              <h4>Availability</h4>
+              <ul>
+                <li>May</li>
+                <li>June</li>
+                <li>Juy</li>
+                <li>August</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="product">
+            <div class="product-img">
+              <img src="./images/granny-smith.jpg" alt="" />
+            </div>
+            <h3>Granny Smith</h3>
+            <div class="taste">
+              <h4>Taste</h4>
+              <p>
+                Granny Smith is crunchy, juicy, sweet apple with a typical aroma
+                for its variety.
+              </p>
+            </div>
+            <div class="fruit">
+              <h4>Fruit</h4>
+              <p>
+                The apples are large in size and round in shape. They have
+                bright green skin that is often speckled with faint white
+                lenticels. This variety is also known as the "green apple".
+              </p>
+            </div>
+            <div class="availability">
+              <h4>Availability</h4>
+              <ul>
+                <li>May</li>
+                <li>June</li>
+                <li>Juy</li>
+                <li>August</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="product">
+            <div class="product-img">
+              <img src="./images/gala.jpg" alt="" />
+            </div>
+            <h3>Gala</h3>
+            <div class="taste">
+              <h4>Taste</h4>
+              <p>
+                Their flesh is creamy yellow, crisp and juicy, offering a mildly
+                sweet aroma.
+              </p>
+            </div>
+            <div class="fruit">
+              <h4>Fruit</h4>
+              <p>
+                The apple is small to medium-sized, firm and round in shape.
+                They are covered in a thin, smooth yellow skin, highlighted with
+                gentle red stripes.
+              </p>
+            </div>
+            <div class="availability">
+              <h4>Availability</h4>
+              <ul>
+                <li>May</li>
+                <li>June</li>
+                <li>Juy</li>
+                <li>August</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="product">
+            <div class="product-img">
+              <img src="./images/idared.png" alt="" />
+            </div>
+            <h3>Idared</h3>
+            <div class="taste">
+              <h4>Taste</h4>
+              <p>
+                They are both sweet and tart, juicy yet crisp and firm. The best
+                fruits have a sprightly, aromatic, and refreshing flavor,
+                although some may lack strong flavor.
+              </p>
+            </div>
+            <div class="fruit">
+              <h4>Fruit</h4>
+              <p>
+                The apple is medium to extra-large in size, and generally round,
+                with a layer bright red over a green-red background. The flesh
+                is yellowish-green, although sometimes a faint pink tinge can be
+                detected.
+              </p>
+            </div>
+            <div class="availability">
+              <h4>Availability</h4>
+              <ul>
+                <li>May</li>
+                <li>June</li>
+                <li>Juy</li>
+                <li>August</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Products End -->
+
+      <!-- Packaging -->
+      <section class="bg-light">
+        <h2>Packaging</h2>
+        <div class="packaging">
+          <p>
+            We have a potential to answer all our customer's demands concerning
+            wrapping material and packaging (wooden, plastic, carton) to fulfill
+            their needs.
+          </p>
+        </div>
+
+        <ul class="flex-col">
+          <h3>Types of packaging</h3>
+          <li>
+            Foodtainer 4, 6, 8 fruits. Polystyrene/polypropylene, Wood pulp
+          </li>
+          <li>Cardboard boxes, 1 layer</li>
+          <li>Plateaus, 2 layers</li>
+          <li>Fruitbox, loose apples in box</li>
+          <li>Maxpac box, loose apples in box</li>
+          <li>Euro cardboard box, for sealed bags, bags and trays</li>
+          <li>Traypac, 5 layer</li>
+          <li>Reusable plastic crate, 1 layer and 2 layers</li>
+          <li>Bags, 1 kg/1.5 kg/2 kg net weight</li>
+        </ul>
+      </section>
+      <!-- Packaging End -->
+
+      <!-- Storing -->
+      <section>
+        <div class="storing">
+          <h2>Storing</h2>
+          <p>
+            Our storing and sorting facility is designed and built in accordance
+            with the highest industry standards.
+          </p>
+          <p>
+            We own a modern cold storage facilities with ULO(Ultra low Oxygen) &
+            DCA(Dynamic Control Atmosphere) technology and machines for
+            cleaning, calibrating and packaging apples.
+          </p>
+        </div>
+      </section>
+      <!-- Storing End -->
+
+      <!-- Certificates -->
+      <section class="bg-light">
+        <h2>Certificates</h2>
+        <div class="certificates">
+          <div><img src="icons/warehouse.png" alt="" /></div>
+          <div><img src="icons/warehouse.png" alt="" /></div>
+          <div><img src="icons/warehouse.png" alt="" /></div>
+        </div>
+      </section>
+      <!-- Certificates End -->
+
+      <!-- Footer -->
+
+      <div class="footer"></div>
+
+      <!-- Footer End -->
+    </div>
+    <script src="nav.js"></script>
+  </body>
+</html>
