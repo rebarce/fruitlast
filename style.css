@@ -347,6 +347,11 @@ section {
     padding-top: 2rem;
     color: rgb(109, 28, 28);
   }
+  
+  .flex-col li {
+    color: var(--text-dark);
+    font-size: 0.9rem;
+  }
 
   .storing p {
     padding-top: 2rem;
